@@ -3,6 +3,7 @@
 
 ### mis archivos ignorados 
 build/
+dist/
 
 ### Linux ###
 *~
