@@ -1,8 +1,8 @@
-// ejemplo sin numeros
+// ejemplo con numeros
 enum DoorState{
-    Open,
-    Closed,
-    MediaAvierta
+    Open = 10,
+    Closed = 20,
+    MediaAvierta =30,
 }
 
 function checkDoorState(state:DoorState) {
@@ -23,4 +23,4 @@ function checkDoorState(state:DoorState) {
     }
 }
 
-checkDoorState(DoorState.MediaAvierta)
+checkDoorState(20)
