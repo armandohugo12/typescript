@@ -21,7 +21,7 @@ interface Optional {
 let optional: Optional = {
     id: 2
 }
-
+a 
 interface WeakType {
     id?: number;
     name?: string;
