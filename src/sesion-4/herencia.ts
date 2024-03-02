@@ -18,9 +18,11 @@ interface Derivada extends Base {
     name: string;
 }
 
-class NameClass implements Derivada {
-    id: number;
-    name: string;
+class NameClass {
+    // solo acceden la clase padre y las derivadas
+    protected id: number;
+    // solo accede la clase dondese delcaro la propiedad
+    private name: string;
 
     constructor(name: string){
         this.id = 0
